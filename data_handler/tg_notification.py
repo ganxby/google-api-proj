@@ -4,7 +4,7 @@ import psycopg2
 from datetime import datetime
 from aiogram import Bot, Dispatcher, executor, types
 
-bot = Bot(token="5539666555:AAFsPDJqdXP5c8TYYmAj0LT40sRCDMKxhqg")
+bot = Bot(token="type your token")
 
 dp = Dispatcher(bot)
 
