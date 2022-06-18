@@ -43,10 +43,10 @@
 - установить библеотеку corsheaders
 - в строках 89-93 файла settings.py изменить данные от БД на свои
 - в строках 18-19 файла views.py в папке data_api данного django-проекта заменить данные от БД на свои
-- сделать миграции в БД командами "python (на linux "python3") manage.py makemigrations" и "python (на linux "python3") migrate"
+- сделать миграции в БД командами "python (на linux "python3") manage.py makemigrations" и "python (на linux "python3") migrate"  
   
-
 Далее из терминала запускаете скрипт командой "python (на linux "python3") manage.py" и он начинает свою работу.  
+  
 Если все сделано верно, то вы должны увидеть такой вывод:  
 <a href="https://ibb.co/WnbBd59"><img src="https://i.ibb.co/CBkVX8d/image.png" alt="image" border="0"></a>  
   
