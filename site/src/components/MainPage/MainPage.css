@@ -1,0 +1,40 @@
+.MainPage-body {
+    display: grid;
+
+    grid-template-areas:
+    "a1 a2";
+
+    grid-template-columns: 50fr 50fr;
+}
+
+.Left {
+    height: 35rem;
+    margin-left: 2rem;
+}
+
+.Right {
+    display: grid;
+
+    grid-template-areas:
+    "r-a"
+    "r-b";
+
+    grid-template-rows: 40fr 60fr;
+}
+
+.Right-top {
+    margin: 0 auto;
+    grid-area: r-a;
+
+    border: 2px gray solid;
+}
+
+.Right-bottom {
+    grid-area: r-b;
+
+    margin: 0 auto;
+    margin-top: 2rem;
+
+
+}
+

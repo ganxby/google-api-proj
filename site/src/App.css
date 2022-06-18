@@ -1,0 +1,33 @@
+html {
+    overflow-y: hidden;
+}
+
+.App {
+    display: grid;
+
+    grid-template-areas:
+    "a"
+    "b"
+    "c";
+
+    grid-template-rows: 12fr 60fr 25fr;
+}
+
+.Header {
+    grid-area: a;
+
+    background: #66CC66;
+
+    display: grid;
+
+    grid-template-areas:
+    "a1 a2";
+
+    grid-template-columns: 10fr 90fr;
+}
+
+.MainPage {
+    padding-top: 2rem;
+    grid-area: b;
+    height: 40rem;
+}
